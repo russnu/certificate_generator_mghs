@@ -1,0 +1,61 @@
+.navContainer {
+    background-color: #9BCC74;
+    height: 100vh; /* Set height to viewport height */
+    position: fixed; /* Fix the position */
+    top: 0; /* Align to the top of the screen */
+    left: 0; /* Align to the left of the screen */
+    width: 280px; /* Set a fixed width for the side nav */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.sideNav {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    gap: 48px;
+    padding-top: 70px;
+    align-self: center;
+}
+
+.text{
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.text:hover {
+    color: #E8A92D;
+    transform: scale(1.05);
+}
+
+.text:focus {
+    color: #E8A92D;
+    transform: scale(0.95);
+}
+
+.active{
+    color: #5B4035;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.active:hover {
+    color: #5B4035;
+    transform: scale(1.05);
+}
+
+.lastItem {
+    margin-top: auto; /* This pushes the last item to the bottom */
+    font-weight: 500;
+}

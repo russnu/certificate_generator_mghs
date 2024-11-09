@@ -1,0 +1,121 @@
+.parentContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginLogo {
+  margin-bottom: 30px;
+}
+
+.loginContainer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: #9bcc74;
+  padding: 50px;
+  border-radius: 20px;
+  align-items: center;
+  gap: 10px;
+  align-self: center;
+  box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+  color: white;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 100px;
+}
+
+.loginContainer h1 {
+  margin-block: 0;
+  align-self: flex-start;
+  color: white;
+}
+
+.loginFormContainer {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin-top: 20px;
+}
+
+.loginFormContainer input {
+  background-color: #faf9f6;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+  border: none;
+  padding: 10px;
+  font-family: Poppins;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.loginContainer label {
+  font-family: Poppins;
+  font-weight: bold;
+  color: white;
+}
+
+.loginFormContainer.loginButtonContainer {
+  display: flex;
+}
+
+.loginButtonContainer button {
+  width: 100%;
+  background-color: #e8a92d;
+  color: #faf9f6;
+  font-family: Poppins;
+  font-weight: bold;
+  box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+}
+.errorMessageContainer {
+  background-color: #d82020;
+  padding: 10px;
+  width: 100%;
+  border-radius: 2px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px 5px rgba(196, 104, 104, 0.75);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorMessage {
+  color: white;
+  margin: 0;
+}
+
+.waveContainer {
+  position: fixed; /* Position it absolutely */
+  bottom: 0px;
+  width: 100vw;
+  height: auto; /* Cover the entire parent */
+  z-index: 1; /* Lower z-index so it's behind */
+}
+
+.wave1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+  height: auto;
+}
+
+.wave2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  width: 100vw;
+  height: auto;
+}

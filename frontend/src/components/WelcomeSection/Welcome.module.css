@@ -1,0 +1,18 @@
+.parentContainer {
+    box-sizing: border-box;
+    padding-inline: 64px;
+}
+
+.buttonsContainer{
+    padding-inline-start: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.buttonsContainer button {
+    height: 100%;
+    background-color: #E8A92D;
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+    color: white;
+    font-weight: 700;
+}

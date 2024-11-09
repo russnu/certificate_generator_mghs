@@ -1,0 +1,23 @@
+.header {
+    box-sizing: border-box;
+    position: fixed; /* Fix the header at the top of the screen */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure the header spans the full width of the screen */
+    z-index: 1000; /* Ensure the header appears on top of other elements */
+    background-color: #fff; /* Set a background color for the header */
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282); /* Optional: Add a subtle shadow for better visibility */
+    height: 72px;
+    padding-inline: 50px;
+    display: flex;
+    align-items: center; /* Vertically centers the content */
+    
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+

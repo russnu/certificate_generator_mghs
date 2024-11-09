@@ -1,0 +1,118 @@
+.parentContainer {
+  box-sizing: border-box;
+  padding-inline: 64px;
+  margin-bottom: 50px;
+}
+
+h2.formSectionTitle {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #363537;
+}
+
+.formSectionContainer {
+  display: flex;
+  gap: 50px;
+  padding-inline: 64px;
+}
+
+.formSectionContainer input,
+.formSectionContainer select {
+  background-color: #82b45936;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+  border: none;
+  padding: 10px;
+  font-family: Poppins;
+}
+
+input[type="date" i] {
+  color-scheme: light;
+}
+
+.formSectionContainer div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: end;
+}
+
+.formSectionContainer div {
+  margin-bottom: 15px;
+}
+
+.formSectionContainer label {
+  font-weight: 550;
+  margin-bottom: 0;
+}
+
+div.internshipPeriodContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+.formSectionContainer div div div {
+  margin-bottom: 0px;
+}
+
+.internshipPeriodContainer h3 {
+  font-weight: 550;
+  margin-block: 0;
+}
+
+.formSectionContainer .issuanceDate {
+  width: 100%;
+}
+
+div.generateButtonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.generateButtonsContainer button {
+  color: white;
+  box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+  height: 100%;
+}
+
+.generateButtonsContainer .generateButton {
+  background-color: #82b459;
+}
+
+.generateButtonsContainer .cancelButton {
+  background-color: #cb9595;
+}
+
+div.certificateTypeItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+div.certificateTypeItem > :nth-child(2) {
+  width: 50%;
+}
+
+div.certificateTypeItem > div {
+  margin-bottom: 0px;
+}
+
+.border {
+  border-top: 2px solid #4544445d;
+  margin-bottom: 50px;
+  width: 90%;
+}

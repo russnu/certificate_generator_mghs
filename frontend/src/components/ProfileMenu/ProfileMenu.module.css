@@ -1,0 +1,53 @@
+.profileContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 72px;
+    gap: 20px;
+}
+
+.profileContainer > * {
+    display: flex;
+    max-height: 100%;
+    justify-content: center;
+}
+
+.profileContainer > div:first-child {
+    gap: 5px;
+    align-items: center;
+}
+
+
+.profileContainer > div:first-child h2 {
+    line-height: 0;
+    font-size: 20px;
+    color: #213547;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.profileContainer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profileContainer h2 {
+    font-weight:normal;
+    font-size: 12px;
+    margin: 0;
+    color: #8f8e8e;
+}
+
+.profileContainer h2:first-of-type{
+    font-size: 16px;
+    color: #213547;
+    font-weight: 700;
+}
+
+
+.profileTextContainer{
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+}

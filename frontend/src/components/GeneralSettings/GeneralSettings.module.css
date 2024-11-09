@@ -1,0 +1,208 @@
+.parentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-inline: 64px;
+    box-sizing: border-box;
+}
+
+.generalSettingsContainer{
+    width: 100%;
+}
+
+.generalSettingsContainer h3 {
+    text-wrap: nowrap;
+    margin: 0;
+}
+
+
+.border {
+    height: 0px;
+    border: 2px solid rgba(126, 124, 124, 0.718);
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* ================================================= */
+
+.companyDetailsContainer, .signatureDetailsContainer, .emailDetailsContainer {
+    padding: 50px;
+    background-color: #dbf1ca66;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+    border: none;
+    margin-bottom: 50px;
+    width: 100%;
+    padding-inline: 64px;
+    box-sizing: border-box;
+}
+
+/* ================================================= */
+
+.companyDetailsContainer {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.companyNameSettingsContainer, .companyEmailSettingsContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: fit-content;
+}
+
+.companyNameSettingsContainer input, .companyEmailSettingsContainer input {
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+    border: none;
+    padding: 10px;
+    font-family: Poppins;
+    flex: 1;
+}
+
+.itemSaved {
+    background-color: #d4d0cc5f;
+    font-weight: bold;
+    box-shadow: none !important;
+    color: rgb(61, 60, 60);
+}
+
+.logoSettingsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logoItemContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: max-content;
+}
+
+/* ================================================= */
+
+
+
+.signatureSettingsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signatureInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.signatureItemContainer {
+    display: flex;
+    width: max-content;
+    gap: 30px;
+}
+
+
+.signatureItemContainer h4 {
+    margin-block: 0;
+    text-wrap: nowrap;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.signatoryInfoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.signatoryFormItem {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.signatoryFormItem input {
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+    border: none;
+    padding: 10px;
+    font-family: Poppins;
+    width: 400px;
+}
+
+/* ======================================================= */
+
+.emailDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.emailSalutationSettingsContainer textarea {
+    height: 100px;
+    max-width: 100%;
+    min-height: 100px;
+}
+
+.defaultMessageSettingsContainer > :first-child, .emailSalutationSettingsContainer > :first-child{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.defaultMessageSettingsContainer textarea {
+    height: 300px;
+    max-width: 100%;
+    min-height: 200px;
+}
+
+/* ======================================================= */
+
+.signatureSettingsContainer button, 
+.companyNameSettingsContainer button, 
+.logoSettingsContainer button, 
+.companyEmailSettingsContainer button, 
+.defaultMessageSettingsContainer button,
+.emailSalutationSettingsContainer button {
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+    background-color: #E8A92D;
+    color: white;
+    padding-block: 0.3em;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    height: 100%;
+}
+
+.imagePreviewContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+    
+}
+  
+.logoImagePreview {
+    max-width: 500px;
+    object-fit: cover;
+}
+
+.signatureImagePreview {
+    max-width: 200px;
+    object-fit: cover;
+}
+

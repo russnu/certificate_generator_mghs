@@ -1,0 +1,22 @@
+.downloadButton {
+    margin: 20px;
+    float: inline-end;
+    background-color: #E8A92D;
+    font-weight: 700;
+    color: white;
+}
+
+.certificateDisplayContainer {
+    max-width: 841.89pt;
+    max-height: 595.28pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}
+
+.downloadButtonsContainer {
+    display: flex;
+    justify-content: space-between;
+}

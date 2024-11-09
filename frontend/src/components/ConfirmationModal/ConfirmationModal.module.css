@@ -1,0 +1,63 @@
+.modalContainer{
+    inset: 50% auto auto 50%;
+    border-radius: 20px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    overflow-y: auto;
+    outline: none;
+    padding: 20px;
+    background-color: white;
+    max-height: 600px;
+}
+
+.modalOverlay {
+    position: fixed;
+    inset: 0px;
+    background-color: rgba(84, 82, 82, 0.75);
+    margin-top: 72px;
+    box-sizing: border-box;
+}
+
+.modalContentContainer {
+
+    margin-inline: 80px;
+    margin-block: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.modalContentContainer h2 {
+    margin-block: 0;
+}
+
+.modalContentContainer p {
+    margin-top: 10px;
+}
+
+.buttonGroup {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.buttonGroup .confirmButton, .buttonGroup .cancelDeleteButton{
+    height: 100%;
+    background-color: #E8A92D;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+}
+.buttonGroup .cancelButton, .buttonGroup .confirmDeleteButton{
+    height: 100%;
+    background-color: #CB9595;
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+    color: white;
+    font-weight: 700;
+}

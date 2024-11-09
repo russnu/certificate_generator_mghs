@@ -1,0 +1,124 @@
+.parentContainer {
+    box-sizing: border-box;
+    padding-inline: 2%;
+}
+
+.addUserButtonContainer {
+    text-align: end;
+}
+
+.addUserButtonContainer button{
+    background-color: #E8A92D;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+}
+
+.listContainer {
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.userItemContainer {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #c5c5c55a;
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.userItemRow {
+    display: flex;
+    box-sizing: border-box;
+    padding-inline: 20px;
+    padding-block: 10px ;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    max-height: 100px;
+    
+}
+
+.userItemRow :first-child { /* Name */
+    flex: 0 0 25%; 
+}
+
+.userItemColumn:nth-child(2) { /* Email */
+    flex: 0 0 25%; 
+}
+
+.userItemColumn:nth-child(3) { /* Role */
+    flex: 0 0 10%; 
+}
+
+.userItemColumn:nth-child(4) { /* Date */
+    flex: 0 0 25%;
+}
+
+.userItemColumn:last-child { /* Button */
+    flex: 0 0 10%; 
+}
+
+.userItemColumn {
+    box-sizing: border-box;
+}
+
+
+.userItemColumn > p {
+    margin-block: 0px;
+}
+
+.userItemColumn :first-child {
+    color: #8f8e8e;
+}
+
+.userItemColumn :nth-child(2) {
+    color: black;
+    font-weight: 500;
+    max-width: 500px;
+}
+
+
+.userItemColumn > .internName {
+    max-width: 500px;
+}
+
+.userItemColumn .buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 100%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.buttonsContainer .deleteUserButton {
+    background-color: #CB9595;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonsContainer .shareUserButton {
+    background-color: #E8A92D;
+    color: white;
+    width: 100%;
+    max-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

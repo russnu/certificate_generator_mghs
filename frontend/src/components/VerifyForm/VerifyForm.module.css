@@ -1,0 +1,100 @@
+.parentContainer {
+    box-sizing: border-box;
+    padding-inline: 64px;
+}
+
+.verifyInputContainer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.verifyInputContainer > :nth-child(2) {
+    flex-grow: 1;
+
+}
+
+
+.verifyInputContainer input {
+    background-color: #82b45936;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+    border: none;
+    padding: 10px;
+    font-family: Poppins;
+}
+
+.verifyButtonContainer {
+    text-align: end;
+}
+
+.verifyButtonContainer button {
+    height: 100%;
+    background-color: #E8A92D;
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+    color: white;
+    font-weight: 700;
+}
+
+.verificationResultContainer {
+    border-width: 20%;
+    padding-inline: 64px;
+}
+
+.border {
+   
+    height: 3px;
+    border-radius: 20px;
+    background-color: #4544445d;
+    margin-block: 50px;
+}
+
+.verificationSuccessContainer {
+    padding: 50px;
+    background-color: #dbf1ca66;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+    border: none;
+    margin-bottom: 50px;
+}
+.verificationSuccessContainer>.verificationResultText {
+    color: #82B459;
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.verificationBodyContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.verificationSuccessContainer>.verificationBodyContainer>:last-child{
+    width: 20%;
+}
+
+
+.verificationFailedContainer {
+    padding: 50px;
+    background-color: #dcadad;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+    border: none;
+    margin-bottom: 50px;
+}
+
+.verificationFailedContainer>.verificationResultText {
+    color: #ba1b1b;
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.verificationFailedContainer>.verificationBodyContainer {
+    display: block;
+    text-align: center;
+}

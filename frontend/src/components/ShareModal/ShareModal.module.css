@@ -1,0 +1,92 @@
+.modalContainer{
+    inset: 50% auto auto 50%;
+    border-radius: 20px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    overflow-y: auto;
+    outline: none;
+    padding: 20px;
+    width: 800px;
+    background-color: white;
+    max-height: 600px;
+}
+
+.modalOverlay {
+    position: fixed;
+    inset: 0px;
+    background-color: rgba(84, 82, 82, 0.75);
+    margin-top: 72px;
+    box-sizing: border-box;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.formGroup input, textarea {
+    background-color: rgb(239, 239, 239); 
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+    border: none;
+    padding: 10px;
+    font-family: Poppins;
+}
+
+.formGroup .recipientEmail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.formGroup .emailMessage, .formGroup .salutation {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.salutation textarea {
+    height: 100px;
+    max-width: 100%;
+}
+
+.emailMessage textarea {
+
+    height: 200px;
+    max-width: 100%;
+}
+.formGroup label {
+    text-wrap: nowrap;
+}
+
+.buttonGroup {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.buttonGroup .sendButton {
+    height: 100%;
+    background-color: #E8A92D;
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+    color: white;
+    font-weight: 700;
+}
+
+.buttonGroup .cancelButton {
+    height: 100%;
+    background-color: #CB9595;
+    box-shadow: 0 5px 5px hsla(0, 0%, 1%, 0.282);
+    color: white;
+    font-weight: 700;
+}
