@@ -211,13 +211,13 @@ function ShareModal({ modalShow, setModalShow, certificateDetails }) {
             </div>
           </div>
 
-          <div className={styles.senderEmailContainer}>
+          {/* <div className={styles.senderEmailContainer}>
             <div>
               <p>
                 <b>From:</b> {companyEmail}
               </p>
             </div>
-          </div>
+          </div> */}
 
           <div className={styles.buttonGroup}>
             <button

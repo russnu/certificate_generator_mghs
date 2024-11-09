@@ -398,7 +398,7 @@ function GeneralSettings() {
             <b>Email Settings</b>
           </h2>
           <div className={styles.emailDetailsContainer}>
-            <div className={styles.companyEmailSettingsContainer}>
+            {/* <div className={styles.companyEmailSettingsContainer}>
               <h3>
                 <b>Company Email</b>
               </h3>
@@ -419,10 +419,10 @@ function GeneralSettings() {
                   Edit
                 </button>
               )}
-            </div>
+            </div> */}
 
             {/*************************************************/}
-            <div className={styles.border}></div>
+            {/* <div className={styles.border}></div> */}
 
             <div className={styles.companyEmailSettingsContainer}>
               <h3>
