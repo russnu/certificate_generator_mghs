@@ -32,12 +32,16 @@ This guide provides step-by-step instructions to update the email configuration 
 
 ### 3. Update the `sendEmail.php` File
 
+- Open the `sendEmail.php` file in the project folder.
 - Replace the following lines with the new app password you generated:
+
   ```php
   define('MAILHOST', "smtp.gmail.com");
   define('PASSWORD', "newly_generated_app_password");
   ```
+
 - Update the email address
+
   ```php
   $mail->Username   = 'your_new_email@gmail.com';
   $mail->setFrom('your_new_email@gmail.com', 'Your Name');
