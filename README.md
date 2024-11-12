@@ -30,7 +30,7 @@ This guide provides step-by-step instructions to update the email configuration 
 
   ![alt text](emailconfig4.png)
 
-### 2. Update the `sendEmail.php` File
+### 3. Update the `sendEmail.php` File
 
 - Replace the following lines with the new app password you generated:
   ```php
